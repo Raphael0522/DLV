@@ -4,7 +4,15 @@
 \alias{crt_rpt}
 \title{Title Create Sassy report object by using titles and footnotes from DLV}
 \usage{
-crt_rpt(env_list, output_name, output_type, headers_list, footers_vector, tbl)
+crt_rpt(
+  env_list,
+  output_name,
+  output_type,
+  headers_list,
+  footers_vector,
+  tbl,
+  margin_list = NULL
+)
 }
 \arguments{
 \item{env_list}{An object that must contain study root, program name, program side.}
@@ -18,6 +26,8 @@ crt_rpt(env_list, output_name, output_type, headers_list, footers_vector, tbl)
 \item{footers_vector}{Page footers and table footers.}
 
 \item{tbl}{Table data.}
+
+\item{margin_list}{Margins for the report (top, bottom, left, right).}
 }
 \value{
 An report object.

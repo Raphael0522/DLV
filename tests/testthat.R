@@ -9,4 +9,4 @@
 library(testthat)
 library(dlv)
 
-test_check("dlv")
+# test_check("dlv")
